@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+*{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+}
+
+.img img{
+   height: 35rem;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+}
+.main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    border-radius: 10px;
+}
+.responsive{
+    width: auto;
+    height: auto;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+span{
+    /* position:absolute; */
+    font-size: 3rem;
+    font-weight: 600;
+    top:10rem;
+    left: 25rem;
+}
+
+/* this is the link section */
+.nav {
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+    width: 35rem;
+    height: 35rem;
+    margin-right: 10rem;
+}
+.nav ul{
+    width: 20rem;
+    /* background-color: azure; */
+}
+.nav ul li{
+    list-style-type: none;
+    margin: 1.5rem 0;
+
+}
+.nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white; 
+    width: 15rem;
+    display: block;
+    letter-spacing: 3px;
+}
+.nav ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+/* this is for cv page */
+.return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
